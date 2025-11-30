@@ -30,6 +30,6 @@
   "scripts": {
     "build": "bun vite build",
     "start:dev": "bun vite build && python3 src/main.py",
-    "lint": "bun run eslint src/frontend"
+    "lint": "bun run eslint"
   }
 }
