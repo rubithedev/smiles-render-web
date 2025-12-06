@@ -12,6 +12,7 @@ def main():
     host = "0.0.0.0"
     port = getenv("PORT") or 3000
     print(f"smiles-render-web running at {host}:{port}")
+
     serve(app, host=host, port=port, threads=os.cpu_count() or 1)
 
 
